@@ -335,7 +335,7 @@ function App() {
                 {/* Profile Photo - Rectangular shape */}
                 <div className="w-80 h-96 lg:w-96 lg:h-[500px] rounded-xl overflow-hidden border-4 border-green-400/20 shadow-2xl">
                   <img 
-                    src="/src/images/profilepic.png" 
+                    src="/images/profilepic.png" 
                     alt="Rishi Raj - Developer" 
                     className="w-full h-full object-cover"
                   />
@@ -549,14 +549,14 @@ function App() {
                 title: "Proclens AI - Gemini AI",
                 description: "AI-powered application leveraging Google's Gemini AI for intelligent data processing and analysis.",
                 tech: ["React", "Gemini AI", "JavaScript", "API Integration"],
-                image: "/src/images/proclens.jpg",
+                image: "/images/proclens.jpg",
                 link: "https://github.com/Sikorsky3301/Proclensai-geminiAI"
               },
               {
                 title: "AI Agent Code Reviewer",
                 description: "Intelligent code review system using AI agents to analyze and provide feedback on code quality.",
                 tech: ["Python", "AI/ML", "Code Analysis", "Automation"],
-                image: "/src/images/aiagent.jpg",
+                image: "/images/aiagent.jpg",
                 link: "https://github.com/Sikorsky3301/Ai-agent-codereviewer"
               }
             ].map((project, index) => (
