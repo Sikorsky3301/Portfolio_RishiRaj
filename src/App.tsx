@@ -262,17 +262,21 @@ function App() {
 
               {/* Social Links */}
               <div className="flex flex-wrap gap-6 text-sm text-gray-400">
-                <a href="https://www.linkedin.com/in/rishirajx/" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors flex items-center">
-                  <span className="text-green-400 mr-1">/</span>LinkedIn
+                <a href="https://www.linkedin.com/in/rishirajx/" target="_blank" rel="noopener noreferrer" className="flex items-center hover:opacity-80 transition-opacity">
+                  <img src="/icons/linkedin.png" alt="LinkedIn" className="w-6 h-6 mr-2" />
+                  LinkedIn
                 </a>
-                <a href="https://github.com/Sikorsky3301" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors flex items-center">
-                  <span className="text-green-400 mr-1">/</span>GitHub
+                <a href="https://github.com/Sikorsky3301" target="_blank" rel="noopener noreferrer" className="flex items-center hover:opacity-80 transition-opacity">
+                  <img src="/icons/github.png" alt="GitHub" className="w-6 h-6 mr-2" />
+                  GitHub
                 </a>
-                <a href="https://leetcode.com/u/sikorsky3301/" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors flex items-center">
-                  <span className="text-green-400 mr-1">/</span>LeetCode
+                <a href="https://leetcode.com/u/sikorsky3301/" target="_blank" rel="noopener noreferrer" className="flex items-center hover:opacity-80 transition-opacity">
+                  <img src="/icons/leetcode.png" alt="LeetCode" className="w-6 h-6 mr-2" />
+                  LeetCode
                 </a>
-                <a href="https://www.credly.com/users/rishi-raj.c1936167" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors flex items-center">
-                  <span className="text-green-400 mr-1">/</span>Credly
+                <a href="https://www.credly.com/users/rishi-raj.c1936167" target="_blank" rel="noopener noreferrer" className="flex items-center hover:opacity-80 transition-opacity">
+                  <img src="/icons/credly.png" alt="Credly" className="w-6 h-6 mr-2" />
+                  Credly
                 </a>
               </div>
 
@@ -363,7 +367,7 @@ function App() {
       </section>
 
       {/* Animated Skills Strip Section */}
-      <section className="py-20 px-6">
+      <section className="py-12 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="overflow-hidden">
             {/* Animated Skills Strip */}
@@ -388,7 +392,7 @@ function App() {
       </section>
 
       {/* Professional Profile Section - Moved here after main section */}
-      <section className="py-20 px-6">
+      <section className="py-16 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="bg-gray-800 rounded-lg border border-gray-700 p-10 md:p-16">
             <div className="grid md:grid-cols-2 gap-12">
@@ -532,7 +536,7 @@ function App() {
       </section>
 
       {/* Portfolio Section */}
-      <section id="portfolio" className="py-20 px-6" style={{ backgroundColor: 'rgba(31, 31, 31, 0.8)' }}>
+      <section id="portfolio" className="py-16 px-6" style={{ backgroundColor: 'rgba(31, 31, 31, 0.8)' }}>
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -598,7 +602,7 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-6">
+      <section id="contact" className="py-16 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -702,14 +706,14 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-6 border-t border-gray-800">
+      <footer className="py-6 px-6 border-t border-gray-800">
         <div className="max-w-7xl mx-auto text-center">
           <div className="flex items-center justify-center mb-4">
             <span className="text-green-400 mr-2">//</span>
             <span className="text-xl font-bold">Rishi Raj</span>
           </div>
           <p className="text-gray-400 text-sm">
-            © 2025 Rishi Raj. Crafted with passion and precision by Rishi Raj.
+            © 2025 Crafted with passion and precision by Rishi Raj.
           </p>
         </div>
       </footer>
