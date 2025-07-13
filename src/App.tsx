@@ -77,17 +77,17 @@ function App() {
       <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-sm border-b border-gray-800" style={{ backgroundColor: 'rgba(31, 31, 31, 0.95)' }}>
         
         {/* Floating Buy Me a Coffee Button */}
-        <div className="fixed top-4 right-4 z-60">
+        <div className="fixed top-4 right-4 z-50 md:block hidden">
           <a 
             href="https://buymeacoffee.com/rishiraj_" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="flex items-center space-x-2 bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+            className="flex items-center space-x-2 bg-yellow-500 hover:bg-yellow-600 text-black px-3 py-2 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 text-sm"
           >
             <img 
               src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExazgwZGpucm0zaXJnenJod292em50bGtvMTc5eWM2bGxvNXFnZ2p6ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/TDQOtnWgsBx99cNoyH/giphy.gif" 
               alt="Buy Me a Coffee" 
-              className="w-5 h-5"
+              className="w-4 h-4"
             />
             <span className="hidden sm:inline">Buy me a coffee</span>
           </a>
@@ -121,7 +121,7 @@ function App() {
             </div>
 
             {/* Desktop Social Icons */}
-            <div className="hidden md:flex items-center space-x-4">
+            <div className="hidden md:flex items-center space-x-4 mr-20">
               <a 
                 href="https://www.linkedin.com/in/rishirajx/" 
                 target="_blank" 
@@ -228,6 +228,23 @@ function App() {
                     title="Credly"
                   >
                     <Award size={20} />
+                  </a>
+                </div>
+                
+                {/* Mobile Buy Me a Coffee Button */}
+                <div className="pt-4 border-t border-gray-700">
+                  <a 
+                    href="https://buymeacoffee.com/rishiraj_" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center space-x-2 bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-3 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+                  >
+                    <img 
+                      src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExazgwZGpucm0zaXJnenJod292em50bGtvMTc5eWM2bGxvNXFnZ2p6ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/TDQOtnWgsBx99cNoyH/giphy.gif" 
+                      alt="Buy Me a Coffee" 
+                      className="w-5 h-5"
+                    />
+                    <span>Buy me a coffee</span>
                   </a>
                 </div>
               </div>
